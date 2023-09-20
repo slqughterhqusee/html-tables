@@ -6,7 +6,22 @@
     <title>Icarus' Table Practice</title>
     <style>
         table {
+            /*boder-color, border-style, border-width are the actyal commands*/
             border: solid 1px red;
+        }
+
+        thead {
+            background-color: darkslategray;
+            color: white;
+            /* text colours are ust using the colour selector */
+        }
+
+        th{
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
         }
     </style>
 </head>
